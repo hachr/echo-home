@@ -1,0 +1,24 @@
+{
+  "name": "echo-home",
+  "version": "1.0.0",
+  "description": "hook into amazon's echo activities",
+  "main": "index.js",
+  "dependencies": {
+    "phantomjs": "^1.9.17",
+    "read": "^1.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hachr/echo-home"
+  },
+  "author": "hachr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hachr/echo-home/issues"
+  },
+  "homepage": "https://github.com/hachr/echo-home"
+}
