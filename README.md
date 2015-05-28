@@ -18,6 +18,14 @@ echo.start({
 });
 </code></pre>
 
+### Run the code ###
+1. git clone https://github.com/hachr/echo-home
+2. cd echo-home
+3. npm install
+4. node index
+5. enter amazon's username and password
+6. start speaking to your echo.
+7. see the output.
 
 ### Known Issues ###
 1. phantomjs is spawned with username and password arguments hence it will show up in `ps` command
