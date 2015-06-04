@@ -11,6 +11,10 @@ echo.on('data', function (event) {
 	console.log(event);
 });
 
+echo.on('error', function(data){
+	console.error(data);
+});
+
 var rl = readline.createInterface({
 	input: process.stdin,
 	output: process.stdout
