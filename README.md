@@ -4,7 +4,7 @@ This project uses phantomjs to perform authentication, and hitting the activity 
 
 ### Usage ###
 <pre><code>
-var Echo = require('./echo');
+var Echo = require('echo-home');
 var echo = new Echo();
 
 echo.on('data', function(activity){
