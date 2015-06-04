@@ -22,7 +22,7 @@ echo.start({
 1. git clone https://github.com/hachr/echo-home
 2. cd echo-home
 3. npm install
-4. node index
+4. node example
 5. enter amazon's username and password
 6. start speaking to your echo.
 7. see the output.
