@@ -1,6 +1,6 @@
 ## Amazon Echo integration ##
 
-This project uses phantomjs to perform authentication, and hitting the activity page directly for the commands.
+This project uses phantomjs to perform authentication, and hitting the activity page directly for the commands.  At the moment, amazon turned on captcha so it's not working.
 
 ### Usage ###
 <pre><code>
