@@ -1,6 +1,6 @@
 ## Amazon Echo integration ##
 
-This project uses phantomjs to perform authentication, and hitting the activity page directly for the commands.  At the moment, amazon turned on captcha so it's not working.
+This project uses phantomjs to perform authentication, and hitting the activity page directly for the commands.  At the moment, **amazon turned on captcha so it's not working.**
 
 ### Usage ###
 <pre><code>
@@ -30,6 +30,7 @@ echo.start({
 ### Known Issues ###
 1. phantomjs is spawned with username and password arguments hence it will show up in `ps` command
 2. invalid credential is not being handled at the moment.
+3. **amazon's captcha is now blocking authentication.**
 
 
 ### Future improvements ###
